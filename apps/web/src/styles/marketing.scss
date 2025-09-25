@@ -1,0 +1,18 @@
+/* Helpers */
+.object-fit-cover { object-fit: cover; }
+
+/* HERO : halo bleu brand (#0d6efd) centré */
+.hero-brand-bg {
+  background:
+    radial-gradient(circle at 45% 45%, rgba(13,110,253,.75) 0%, rgba(13,110,253,.55) 25%, rgba(13,110,253,.25) 45%, rgba(13,110,253,0) 65%),
+    linear-gradient(180deg, rgba(0,0,0,.35), rgba(0,0,0,.25));
+  min-height: 52vh;
+}
+
+/* Éditos : images toutes à la même hauteur */
+.mk-card-img {
+  height: 320px;
+  object-fit: cover;
+  border-top-left-radius: .75rem;
+  border-top-right-radius: .75rem;
+}
